@@ -1,7 +1,17 @@
 .thumpnail{
     width: 300px;
+    display: block;
 }
 
 .search-bar{
     font-size: 20px;
+}
+
+.video-title{
+
+}
+
+.video-author, .video-stats{
+    display: inline-block;
+
 }
