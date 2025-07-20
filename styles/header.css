@@ -84,3 +84,9 @@
 .voice-search-icon{
     height: 22px;
 }
+
+.right-section{
+    display: flex;
+    align-items: center;
+}
+
