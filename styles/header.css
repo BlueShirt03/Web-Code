@@ -21,7 +21,7 @@
 }
 
 .right-section{
-    background-color: lightblue;
+   
     width: 200px;
 }
 
@@ -40,6 +40,7 @@
 .search-bar::placeholder{
     font-family: Roboto, Arial;
     font-size: 16px;
+    padding-left: 5px;
 }
 
 .search-bar{
@@ -55,7 +56,7 @@
 }
 
 .search-button{
-    height: 40px;
+    height: 39.5px;
     width: 66px;
     background-color: rgb(240, 240, 240);
     border-width:1px;
@@ -63,7 +64,7 @@
     border-color: rgb(192, 192, 192);
     margin-left: -2px;
     margin-right: 10px;
-    margin-top: 0.1px;
+    margin-top: 0.2px;
     
 }
 
@@ -88,5 +89,24 @@
 .right-section{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
 
+
+.upload-icon{
+    height: 24px;
+}
+
+.apps-icon{
+    height: 24px;
+}
+
+.notifications-icon{
+    height: 24px;
+}
+
+.my-channel-icon{
+    height: 35px;
+    margin-right: 15px;
+}
