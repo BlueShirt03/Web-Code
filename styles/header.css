@@ -117,6 +117,29 @@
     height: 24px;
 }
 
+.notifications-con{
+    position: relative;
+}
+
+.num-notifications{
+    position: absolute;
+    top: -3px;
+    right: -7px;
+    background-color: rgb(204, 0, 0);
+    color: white;
+    font-family: Robot, Arial;
+    font-size: 10px;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    border-width: 1.6px;
+    border-style: solid;
+
+
+}
+
 .my-channel-icon{
     height: 35px;
     margin-right: 15px;
