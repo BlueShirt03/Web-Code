@@ -5,6 +5,7 @@
     top: 55px;
     background-color: white;
     width: 72px;
+    z-index: 200;
 }
 
 .sidebar-link{
@@ -15,6 +16,7 @@
     height: 74px;
     background-color: white;
     transition: background-color 0.25s
+    
 }
 
 .sidebar-link:hover{
@@ -22,7 +24,7 @@
     
 }
 
-.home-icon{
+.sidebar-icon{
     height: 24px;
     padding-bottom: 6.5px;
 }
