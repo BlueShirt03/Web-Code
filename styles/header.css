@@ -79,17 +79,18 @@
     
 }
 
-.search-button{
+.search-button, .voice-search-button, .right-section-con, .notifications-con{
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 
-.search-button .tooltip{
+.search-button .tooltip, .voice-search-button .tooltip, .right-section-con .tooltip, .notifications-con .tooltip{
     position: absolute;
     background-color: gray;
     color: white;
+    font-family: Roboto, Arial;
     padding-top: 4px;
     padding-bottom: 4px;
     padding-left: 8px;
@@ -104,7 +105,7 @@
 
 }
 
-.search-button:hover .tooltip{
+.search-button:hover .tooltip, .voice-search-button:hover .tooltip, .right-section-con:hover .tooltip, .notifications-con:hover .tooltip{
     opacity: 1;
 
 }
